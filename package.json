@@ -1,0 +1,48 @@
+{
+    "name": "node-starter",
+    "version": "3.4.0",
+    "description": "🟢 node.js javascript starter",
+    "type": "module",
+    "keywords": [
+        "node",
+        "typescript",
+        "eslint",
+        "prettier",
+        "vitest"
+    ],
+    "homepage": "https://github.com/bradgarropy/node-starter",
+    "bugs": {
+        "url": "https://github.com/bradgarropy/node-starter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/node-starter"
+    },
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "start:watch": "tsx --watch src/index.ts",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "typecheck": "tsc",
+        "test": "vitest --coverage",
+        "test:watch": "vitest --coverage --watch"
+    },
+    "devDependencies": {
+        "@bradgarropy/eslint-config": "^3.0.1",
+        "@vitest/coverage-v8": "^2.1.4",
+        "jest": "^29.7.0",
+        "prettier": "^3.2.5",
+        "tsx": "^4.7.1",
+        "typescript": "^5.3.3",
+        "vite-tsconfig-paths": "^5.0.1",
+        "vitest": "^2.1.4"
+    }
+}
