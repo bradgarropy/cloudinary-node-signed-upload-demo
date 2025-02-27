@@ -44,5 +44,9 @@
         "typescript": "^5.3.3",
         "vite-tsconfig-paths": "^5.0.1",
         "vitest": "^2.1.4"
+    },
+    "dependencies": {
+        "cloudinary": "^2.5.1",
+        "dotenv": "^16.4.7"
     }
 }
